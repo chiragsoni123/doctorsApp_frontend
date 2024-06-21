@@ -23,12 +23,22 @@
     border: 0.5px solid rgb(236, 231, 231);
     border-radius: 8px;
     margin-right: 30px;
+    transition: transform 0.3s ease;
 }
 
 .lowerc1image {
     width: 40%;
     margin-bottom: 20px;
     margin-top: 10px;
+    
+}
+
+.lowerc1:hover,
+.lowerc2:hover,
+.lowerc3:hover,
+.lowerc4:hover{
+    transform: scale(1.05);
+    border: solid black 1px;
 }
 
 .lowerc1h5 {
@@ -47,6 +57,7 @@
     border: 0.5px solid rgb(236, 231, 231);
     border-radius: 8px;
     margin-right: 30px;
+    transition: transform 0.3s ease;
 }
 
 .lowerc3 {
@@ -55,6 +66,7 @@
     border: 0.5px solid rgb(236, 231, 231);
     border-radius: 8px;
     margin-right: 30px;
+    transition: transform 0.3s ease;
 }
 
 .lowerc4 {
@@ -62,6 +74,7 @@
     width: 25%;
     border: 0.5px solid rgb(236, 231, 231);
     border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
 @media only screen and (max-width: 768px) {

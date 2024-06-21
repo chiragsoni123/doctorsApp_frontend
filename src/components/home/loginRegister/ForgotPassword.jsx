@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './ForgotPassword.css'
-import logo from '../images/loginleftimage2.png';
+import logo from '../images/loginlogo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from "axios";
 

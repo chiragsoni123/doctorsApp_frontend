@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Login.css'
-import logo from '../images/loginleftimage2.png';
+import logo from '../images/loginlogo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from "axios";
 
@@ -105,13 +105,14 @@ const Login = () => {
   }
 
   return (
-    <div className='login'>
+    <div className='page'>
+      <div className='login'>
       <div className='loginleft'>
         <img className='loginleftimage' src={logo} alt='logo'></img>
       </div>
       <div className='loginright'>
         <h1></h1>
-        <h3>Enter your login credentials</h3>
+        <h3 id='lebal'><b>Welcome back to NIMS Hospital</b></h3>
         {!otpFlag ? (
           <div>
             <label className='loginlabel'>Email:</label>
@@ -141,6 +142,7 @@ const Login = () => {
         <p> <Link to="/forgotpassword"> Forgot Password? </Link> </p>
         <p>Not registered? <Link to="/register"> Create an account </Link> </p>
       </div>
+    </div>
     </div>
   )
 }
