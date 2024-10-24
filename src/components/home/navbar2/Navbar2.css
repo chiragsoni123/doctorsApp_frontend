@@ -8,6 +8,16 @@
     justify-content: space-between;
     align-items: center;
 }
+.n12 .himg {
+    height: 30px;
+}
+.n12 {
+    margin-right: 60px;
+    height: 45px;
+    float: right;
+    display: flex;
+    width: 45px ;
+}
 
 .navbar21 {
     height: 60px;
